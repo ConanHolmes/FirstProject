@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_yule"
+        android:checkableBehavior="single">
+    <item android:id="@+id/xiaohua"
+        android:title="找点乐子"
+        android:icon="@drawable/xiaohua"/>
+    <item android:id="@+id/star"
+        android:title="星座运势"
+        android:icon="@drawable/star"/>
+    <item android:id="@+id/movie"
+        android:title="明星八卦"
+        android:icon="@drawable/movie"/>
+     <item android:id="@+id/xiexie"
+            android:title="随便写写"
+         android:icon="@drawable/write"/>
+     <item android:id="@+id/gaungguang"
+            android:title="扫扫天下"
+         android:icon="@drawable/saoma"/>
+    </group>
+
+    <group android:id="@+id/group_system">
+        <item android:id="@+id/shoucang"
+            android:title="我的收藏"
+            android:icon="@drawable/coll"/>
+        <item android:id="@+id/finish"
+            android:icon="@drawable/tuichu"
+            android:title="退出程序"/>
+    </group>
+
+</menu>
